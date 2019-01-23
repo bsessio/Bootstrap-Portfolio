@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>
+    Bowie Sessions' Portfolio
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous" />
+  <style>
+    .greenbox {
+  text-align: center;
+  width: 10.5em;
+  padding: 1em;
+  background-color: #4aaaa5;
+  color: #fff;
+  float: left;
+ }
+
+.tablebordered {
+  border-top: 0.5em;
+  border-top-style: solid;
+  border-color: #4aaaa5;
+ }
+
+ html, body {
+ background: url("assets/images/circuit.png") repeat;} 
+
+ h2 { color: #4aaaa5;}
+
+ .btn-teal {
+   background-color: #4aaaa5;
+   color: #fff;
+ }
+
+ @media (max-width: 767px) {
+.fixed-top {
+  position: relative;
+}
+
+.fixed-bottom {
+  position: relative;
+}
+
+ }
+
+ @media (min-width: 768px) {
+
+.maincontent {
+  margin-top: 115px;
+  margin-bottom: 100px;
+}
+
+}
+
+    </style>
+</head>
+
+<body>
+  <header class="fixed-top bg-white border-secondary border-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="greenbox">
+            <a class="navbar-brand text-light" href="index.html">
+              Bowie Sessions
+            </a>
+          </div>
+        </div>
+        <div class="col">
+          <nav class="navbar p-0 navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon">
+              </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="nav navbar-nav ml-auto mt-3">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">
+                    About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">
+                    Portfolio
+                  </a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="contact.html">
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
+        </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <div class="maincontent">
+    <div class="container my-5 px-4 py-4 bg-white border border-light">
+      <div class="row">
+        <div class="col">
+          <h2>
+            Contact
+          </h2>
+          <hr />
+          <form action="mailto:eviltoon@yahoo.com" method="post" enctype="text/plain">
+            <div class="form group">
+              <label for="name">Name</label> <input type="text" class="form-control mb-3" name="name" placeholder="John Smith" />
+            </div>
+            <div class="form group">
+              <label for="email">Email</label><input type="email" class="form-control mb-3" name="mail" placeholder="example@gmail.com" />
+            </div>
+            <div class="form group">
+              <label for="message">Message</label> <textarea class="form-control mb-3" placeholder="Start typing..." rows="5"></textarea></label>
+            </div>
+            <button type="button" class="btn btn-teal">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="text-center text-white-50 bg-secondary pt-4 pb-1 tablebordered fixed-bottom">
+    <small>Copyright &copy;</small>
+  </div>
+</body>
+
+</html>
